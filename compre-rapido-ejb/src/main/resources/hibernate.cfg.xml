@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.password">ykUte13mjpx_kLJvyavjblcTpD</property>
+        <property name="hibernate.connection.url">jdbc:postgres://ec2-54-204-32-91.compute-1.amazonaws.com:5432/d29ijq7s8dh6bt</property>
+        <property name="hibernate.connection.username">xdhijauytkhbjv</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+        <property name="show_sql">true</property>
+        <mapping resource="com/mkyong/common/Stock.hbm.xml"></mapping>
+    </session-factory>
+</hibernate-configuration>
