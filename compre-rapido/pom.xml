@@ -1,13 +1,14 @@
 <project>
-   <modelVersion>4.0.0</modelVersion>
-   <groupId>compre-rapido</groupId>
-   <version>1.0</version>
-   <artifactId>compre-rapido</artifactId>
-   <packaging>pom</packaging>
-   <name>Java EE Example</name>
-   <modules>
-      <module>compre-rapido-ear</module>
-	  <module>compre-rapido-ejb</module>      
-	  <module>compre-rapido-webapp</module>
-	  </modules>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>compre-rapido</groupId>
+	<version>1.0</version>
+	<artifactId>compre-rapido</artifactId>
+	<packaging>pom</packaging>
+	<name>Compre Rapido</name>
+	<modules>
+
+	<module>../compre-rapido-ear</module>
+	<module>../compre-rapido-ejb</module>
+	<module>../compre-rapido-webapp</module>
+	</modules>
 </project>

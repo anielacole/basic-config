@@ -1,14 +1,12 @@
 <project>
    <modelVersion>4.0.0</modelVersion>
-   <groupId>compre-rapido</groupId>
    <artifactId>compre-rapido-ear</artifactId>
    <packaging>ear</packaging>
-   <version>1.0</version>
-   <name>Java EE EAR Example</name>
    <parent>
-      <groupId>maven-tutorial</groupId>
-      <artifactId>java-ee</artifactId>
+      <groupId>compre-rapido</groupId>
+      <artifactId>compre-rapido</artifactId>
       <version>1.0</version>
+      <relativePath>../compre-rapido</relativePath>
    </parent>
    <dependencies>
       <dependency>
@@ -24,4 +22,5 @@
          <type>ejb</type>
       </dependency>	  
    </dependencies>
+   <name>Compre Rapido EAR</name>
 </project>

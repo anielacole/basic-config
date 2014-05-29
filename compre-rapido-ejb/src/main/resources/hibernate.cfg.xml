@@ -6,9 +6,9 @@
     <session-factory>
         <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
-        <property name="hibernate.connection.password">ykUte13mjpx_kLJvyavjblcTpD</property>
-        <property name="hibernate.connection.url">jdbc:postgres://ec2-54-204-32-91.compute-1.amazonaws.com:5432/d29ijq7s8dh6bt</property>
-        <property name="hibernate.connection.username">xdhijauytkhbjv</property>
+        <property name="hibernate.connection.password">Alison@2014</property>
+        <property name="hibernate.connection.url">jdbc:postgres://pgsql05.uni5.net:5432/alisonsouza</property>
+        <property name="hibernate.connection.username">alisonsouza</property>
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
         <property name="show_sql">true</property>
         <mapping resource="com/mkyong/common/Stock.hbm.xml"></mapping>

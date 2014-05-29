@@ -1,14 +1,13 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>compre-rapido</groupId>
   <artifactId>compre-rapido-webapp</artifactId>
   <packaging>war</packaging>
-  <version>1.0</version>
-  <name>Java EE webapp</name>
 
   <parent>
-    <groupId>maven-tutorial</groupId>
-    <artifactId>java-ee</artifactId>
+    <groupId>compre-rapido</groupId>
+    <artifactId>compre-rapido</artifactId>
     <version>1.0</version>
+    <relativePath>../compre-rapido</relativePath>
   </parent>
+  <name>Compre Rapido WebApp</name>
 </project>
