@@ -1,14 +1,14 @@
-<project>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>compre-rapido</groupId>
+	<groupId>compre-rapido-project</groupId>
 	<version>1.0</version>
 	<artifactId>compre-rapido</artifactId>
 	<packaging>pom</packaging>
 	<name>Compre Rapido</name>
 	<modules>
-
-	<module>../compre-rapido-ear</module>
-	<module>../compre-rapido-ejb</module>
-	<module>../compre-rapido-webapp</module>
+		<module>compre-rapido-ear</module>
+		<module>compre-rapido-ejb</module>
+		<module>compre-rapido-webapp</module>
 	</modules>
 </project>
